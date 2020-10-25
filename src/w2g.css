@@ -1,0 +1,140 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+     font-family: 'Poppins', sans-serif;
+}
+#chat-input-form > div > input,
+#search-bar-input {
+     font-family: 'Poppins', sans-serif !important;
+}
+
+/* ADBLOCK */
+body > div.w2g-main-container.w2g-bind-layout > div.w2g-main-lower > div.w2g-player-search > div.w2g-scroll-vertical > div > div.w2g-center-plus.w2g-until-mobile > a {
+     display: none; /* remove text visible when using adblock */
+}
+#yt_a_message {
+     display: none !important; /* remove adblock banner on top */
+}
+
+/* MISC */
+body ::-webkit-scrollbar {
+    width: 0px !important; /* hide scrollbar */
+}
+body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-apps > div.w2g-topbar {
+     background: transparent; /* make menu bar transparent */
+}
+
+/* MENU BAR (right) */
+body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-apps > div.w2g-topbar > div.w2g-topbar-content > div.w2g-topbar-roominfo.w2g-bind-moderation.nobreak.w2g-search-hide {
+     display: none; /* remove room name */
+}
+body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-apps > div.w2g-topbar > div.w2g-topbar-content > div.w2g-topbar-menu > div {
+     display: none; /* remove new invite friends button */
+}
+body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-apps > div.w2g-topbar > div.w2g-topbar-content > div.w2g-topbar-menu > a {
+     display: none; /* remove question mark */
+}
+
+/* MENU BAR (left)*/
+body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-apps > div.w2g-topbar > div.w2g-topbar-menu.w2g-topbar-left.w2g-search-hide {
+     display: none; /* remove logo */
+}
+body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-apps > div.w2g-topbar > div.w2g-topbar-menu.w2g-topbar-left.w2g-search-hide {
+     pointer-events: none; /* disable link in logo */
+}
+body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-apps > div.w2g-topbar > div.w2g-topbar-menu.w2g-topbar-left.w2g-search-hide > div {
+     background-image: url(https://chimute.org/wp-content/uploads/2019/02/Schriftzug.png) /* replace logo */
+}
+body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-apps > div.w2g-topbar > div.w2g-topbar-menu.w2g-topbar-left.w2g-search-hide > div > i {
+     display: none; /* remove arrow next to logo */
+}
+
+/* SEARCH RESULTS */
+#w2g-editorial > div:nth-child(1) {
+     display: none; /* remove w2g-shorts heading */
+}
+#w2g-editorial > div:nth-child(2) {
+     display: none; /* remove w2g-shorts video suggestions */
+}
+#w2g-search-results > div.w2g-search-nomore.darker-item {
+     display: none; /* remove search results tooltip */
+}
+#w2g-editorial > div:nth-child(3) {
+     display: none; /* remove w2g guide heading */
+}
+#w2g-editorial > div.w2g-step-by-step {
+     display: none; /* remove w2g guide */
+}
+#w2g-search-results > div.w2g-items-grid > div > div.w2g-item-content > div.w2g-item-actions > div:nth-child(1) {
+     display: none; /* remove recommend button */
+}
+body > div.w2g-main-container.w2g-bind-layout > div.w2g-main-lower > div.w2g-player-search > div.w2g-scroll-vertical > div > div.w2g-search-spacer.w2g-until-mobile {
+     display: none; /* remove blank space */
+}
+
+/* PARTICIPANTS */
+#userbar > div.w2g-webrtc.w2g-userctrl {
+     display: none; /* (expanded) remove cam/mic button */
+}
+#userbar > div.w2g-panel-menu > div.w2g-panel-icon-medium.w2g-webrtc > i.record.icon {
+     display: none; /* (collapsed) remove cam button */
+}
+#userbar > div.w2g-panel-menu > div.w2g-panel-icon-medium.w2g-webrtc > i.unmute.icon {
+     display: none; /* (collapsed) remove mic button */
+}
+#userbar > div.w2g-panel-menu > div.w2g-panel-notifications { /* (collapsed) button counter restyle */
+     right: 18.5px;
+     top: 1.5px;
+     background-color: transparent;
+     font-weight: lighter;
+}
+#userbar > div.w2g-panel-menu { /* restyle participant bar show button */
+     width: 50px;
+     height: 35px;
+     border-top-right-radius: 30px;
+     border-top-left-radius: 30px;
+     box-shadow: 0px 0px 10px 1px black;
+     background-color: #373737;
+     color: #fff;
+}
+#userbar > div.w2g-hide-userbar { /* reposition and recolor participant bar hide button */
+     padding: 10px;
+     color: white;
+}
+#userbar {
+     background-color: #373737 !important; /* recolor participant bar */
+}
+
+/* CHAT */
+body > div.w2g-main-container.w2g-bind-layout > div.w2g-main-lower > div.w2g-main-right > div.w2g-content-right > div.w2g-menu-tab.w2g-active.w2g-chat.w2g-messages > div.w2g-chat-input > div > div {
+     display: none !important; /* hide emoji button in chat */
+}
+body > div.w2g-main-container.w2g-bind-layout > div.w2g-main-lower > div.w2g-main-right > div.w2g-content-right > div.w2g-menu-tab.w2g-chat.w2g-messages.w2g-active > div.w2g-chat-menu {
+     display: none; /* remove chat popout button */
+}
+
+/* PLAYLIST */
+body > div.w2g-main-container.w2g-bind-layout > div.w2g-main-lower > div.w2g-main-right > div.w2g-content-right > div.w2g-menu-tab.w2g-playlists.w2g-active > div.playlist-menu.mod-pl {
+     display: none; /* remove custom playlist selector */
+}
+body > div.w2g-main-container.w2g-bind-layout > div.w2g-main-lower > div.w2g-main-right > div.w2g-content-right > div.w2g-menu-tab.w2g-playlists.w2g-active > div.w2g-playlists-settings.mod-pl > i.setting.icon {
+     display: none; /* remove custom playlist creation */
+}
+body > div.w2g-main-container.w2g-bind-layout > div.w2g-main-lower > div.w2g-main-right > div.w2g-content-right > div.w2g-menu-tab.w2g-playlists.w2g-active > div.w2g-playlists-settings.mod-pl > div > div:nth-child(3) {
+     display: none; /* remove playlist vote option */
+}
+
+/* VIDEO CONTAINER */
+body > div.w2g-main-container.w2g-bind-layout > div.w2g-main-lower > div.w2g-player-search {
+     max-width: none !important; /* remove max size */
+}
+
+/* TODO: redesign video options and volume slider
+#player-settings-section > div:nth-child(3) > div.w2g-dropdown {
+     background-color: #2b2b2b;
+     border-radius: 10px;
+}
+#player-settings-section > div:nth-child(3) > div.w2g-dropdown > div {
+     background-color: transparent;
+}
+*/
