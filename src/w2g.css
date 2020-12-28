@@ -10,10 +10,10 @@
 
 /* ADBLOCK */
 body > div.w2g-main-container.w2g-bind-layout > div.w2g-main-lower > div.w2g-player-search > div.w2g-scroll-vertical > div > div.w2g-center-plus.w2g-until-mobile > a {
-     display: none; /* remove text visible when using adblock */
+     display: none; /* remove text only visible when using adblock */
 }
 #yt_a_message {
-     display: none !important; /* remove adblock banner on top */
+     display: none !important; /* remove banner only visible when using adblock */
 }
 
 /* MISC */
@@ -24,7 +24,7 @@ body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-
      background: transparent; /* make menu bar transparent */
 }
 
-/* MENU BAR (right) */
+/* TOP MENU BAR (right half) */
 body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-apps > div.w2g-topbar > div.w2g-topbar-content > div.w2g-topbar-roominfo.w2g-bind-moderation.nobreak.w2g-search-hide {
      display: none; /* remove room name */
 }
@@ -35,15 +35,12 @@ body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-
      display: none; /* remove question mark */
 }
 
-/* MENU BAR (left)*/
+/* TOP MENU BAR (left half) */
 body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-apps > div.w2g-topbar > div.w2g-topbar-menu.w2g-topbar-left.w2g-search-hide {
-     display: none; /* remove logo */
+     display: none; /* remove W2G logo */
 }
 body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-apps > div.w2g-topbar > div.w2g-topbar-menu.w2g-topbar-left.w2g-search-hide {
      pointer-events: none; /* disable link in logo */
-}
-body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-apps > div.w2g-topbar > div.w2g-topbar-menu.w2g-topbar-left.w2g-search-hide > div {
-     background-image: url(https://chimute.org/wp-content/uploads/2019/02/Schriftzug.png) /* replace logo */
 }
 body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-apps > div.w2g-topbar > div.w2g-topbar-menu.w2g-topbar-left.w2g-search-hide > div > i {
      display: none; /* remove arrow next to logo */
@@ -51,19 +48,19 @@ body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-
 
 /* SEARCH RESULTS */
 #w2g-editorial > div:nth-child(1) {
-     display: none; /* remove w2g-shorts heading */
+     display: none; /* remove W2G-shorts heading */
 }
 #w2g-editorial > div:nth-child(2) {
-     display: none; /* remove w2g-shorts video suggestions */
+     display: none; /* remove W2G-shorts video suggestions */
 }
 #w2g-search-results > div.w2g-search-nomore.darker-item {
      display: none; /* remove search results tooltip */
 }
 #w2g-editorial > div:nth-child(3) {
-     display: none; /* remove w2g guide heading */
+     display: none; /* remove W2G guide heading */
 }
 #w2g-editorial > div.w2g-step-by-step {
-     display: none; /* remove w2g guide */
+     display: none; /* remove W2G guide */
 }
 #w2g-search-results > div.w2g-items-grid > div > div.w2g-item-content > div.w2g-item-actions > div:nth-child(1) {
      display: none; /* remove recommend button */
@@ -128,13 +125,6 @@ body > div.w2g-main-container.w2g-bind-layout > div.w2g-main-lower > div.w2g-mai
 body > div.w2g-main-container.w2g-bind-layout > div.w2g-main-lower > div.w2g-player-search {
      max-width: none !important; /* remove max size */
 }
-
-/* TODO: redesign video options and volume slider
-#player-settings-section > div:nth-child(3) > div.w2g-dropdown {
-     background-color: #2b2b2b;
-     border-radius: 10px;
+#upl_rNEUv_w2gshorts {
+     display: none !important; /* hopefully disable W2G-shorts autoplay... */
 }
-#player-settings-section > div:nth-child(3) > div.w2g-dropdown > div {
-     background-color: transparent;
-}
-*/
