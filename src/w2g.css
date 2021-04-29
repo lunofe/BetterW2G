@@ -25,9 +25,8 @@ body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-
 }
 
 /* TOP MENU BAR (right half) */
-body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-apps > div.w2g-topbar > div.w2g-topbar-content > div.w2g-topbar-roominfo.w2g-bind-moderation.nobreak.w2g-search-hide,
 #w2g-mod-dropdown {
-     display: none; /* remove room name */
+     display: none !important; /* remove room name */
 }
 body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-apps > div.w2g-topbar > div.w2g-topbar-content > div.w2g-topbar-menu > div {
      display: none; /* remove new invite friends button */
@@ -69,6 +68,9 @@ body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-
 body > div.w2g-main-container.w2g-bind-layout > div.w2g-main-lower > div.w2g-player-search > div.w2g-scroll-vertical > div > div.w2g-search-spacer.w2g-until-mobile {
      display: none; /* remove blank space */
 }
+.w2g-item {
+     border-radius: 10px !important; /* round corners */
+}
 
 /* PARTICIPANTS */
 #userbar > div.w2g-webrtc.w2g-userctrl {
@@ -95,8 +97,9 @@ body > div.w2g-main-container.w2g-bind-layout > div.w2g-main-lower > div.w2g-pla
      background-color: #373737;
      color: #fff;
 }
-#userbar > div.w2g-panel-menu > div.w2g-panel-icon-medium.w2g-webrtc { /* restyle participant bar show button (hide other icons) */
-     display: none;
+#userbar > div.w2g-panel-menu > div.w2g-panel-notifications,
+#userbar > div.w2g-panel-menu > div.w2g-panel-icon-medium.w2g-webrtc > i.desktop.icon {
+     display: none; /* restyle participant bar show button (hide other icons) */
 }
 #userbar > div.w2g-hide-userbar { /* reposition and recolor participant bar hide button */
      padding: 10px;
@@ -107,8 +110,8 @@ body > div.w2g-main-container.w2g-bind-layout > div.w2g-main-lower > div.w2g-pla
 }
 
 /* CHAT */
-body > div.w2g-main-container.w2g-bind-layout > div.w2g-main-lower > div.w2g-main-right > div.w2g-content-right > div.w2g-menu-tab.w2g-active.w2g-chat.w2g-messages > div.w2g-chat-input > div > div {
-     display: none !important; /* hide emoji button in chat */
+body > div.w2g-main-container.w2g-bind-layout > div.w2g-main-lower > div.w2g-main-right > div.w2g-content-right > div.w2g-menu-tab.w2g-chat.w2g-messages.w2g-active > div.w2g-chat-input {
+     display: none; /* remove chat entirely */
 }
 body > div.w2g-main-container.w2g-bind-layout > div.w2g-main-lower > div.w2g-main-right > div.w2g-content-right > div.w2g-menu-tab.w2g-chat.w2g-messages.w2g-active > div.w2g-chat-menu {
      display: none; /* remove chat popout button */
@@ -131,4 +134,7 @@ body > div.w2g-main-container.w2g-bind-layout > div.w2g-main-lower > div.w2g-pla
 }
 #upl_rNEUv_w2gshorts {
      display: none !important; /* hopefully disable W2G-shorts autoplay... */
+}
+body > div.w2g-main-container.w2g-bind-layout > div.w2g-main-lower > div.w2g-player-search > div.w2g-scroll-vertical > div > div.w2g-player-container {
+     border-radius: 10px;
 }
