@@ -25,7 +25,8 @@ body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-
 }
 
 /* TOP MENU BAR (right half) */
-body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-apps > div.w2g-topbar > div.w2g-topbar-content > div.w2g-topbar-roominfo.w2g-bind-moderation.nobreak.w2g-search-hide {
+body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-apps > div.w2g-topbar > div.w2g-topbar-content > div.w2g-topbar-roominfo.w2g-bind-moderation.nobreak.w2g-search-hide,
+#w2g-mod-dropdown {
      display: none; /* remove room name */
 }
 body > div.w2g-main-container.w2g-bind-layout > div.w2g-topbar-wrapper.w2g-bind-apps > div.w2g-topbar > div.w2g-topbar-content > div.w2g-topbar-menu > div {
@@ -93,6 +94,9 @@ body > div.w2g-main-container.w2g-bind-layout > div.w2g-main-lower > div.w2g-pla
      box-shadow: 0px 0px 10px 1px black;
      background-color: #373737;
      color: #fff;
+}
+#userbar > div.w2g-panel-menu > div.w2g-panel-icon-medium.w2g-webrtc { /* restyle participant bar show button (hide other icons) */
+     display: none;
 }
 #userbar > div.w2g-hide-userbar { /* reposition and recolor participant bar hide button */
      padding: 10px;
