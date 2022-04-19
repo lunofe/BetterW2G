@@ -1,23 +1,27 @@
 {
-  "name": "BetterW2G",
-  "description": "Because Watch2Gether really needs an updated UI.",
-  "version": "1.3",
-  "icons": {
-     "526": "icon.png"
-  },
-  "permissions": [
-	"*://w2g.tv/rooms/*"
-  ],
-  "browser_action": {
-      "default_icon": "icon.png",
-      "default_popup": "popup.html"
-  },
-  "content_scripts": [{
-	"matches": [
-		"*://w2g.tv/rooms/*"
-	],
-	"css": ["w2g.css"],
-	"run_at": "document_start"
-  }],
-  "manifest_version": 2
+    "manifest_version": 3,
+    "name": "BetterW2G",
+    "description": "Because Watch2Gether really needs an updated UI.",
+    "version": "1.5",
+    "icons": {
+        "526": "icon.png"
+    },
+    "host_permissions": [
+        "*://w2g.tv/rooms/*"
+    ],
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://w2g.tv/rooms/*"
+            ],
+            "css": [
+                "w2g.css"
+            ],
+            "run_at": "document_start"
+        }
+    ]
 }
