@@ -7,7 +7,7 @@
         "526": "icon.png"
     },
     "host_permissions": [
-        "*://w2g.tv/rooms/*"
+        "*://w2g.tv/*"
     ],
     "action": {
         "default_icon": "icon.png",
@@ -16,7 +16,7 @@
     "content_scripts": [
         {
             "matches": [
-                "*://w2g.tv/rooms/*"
+                "*://w2g.tv/*"
             ],
             "css": [
                 "w2g.css"
