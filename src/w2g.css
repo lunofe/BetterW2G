@@ -21,9 +21,14 @@ body>div.w2g-main-container.w2g-bind-layout>div.w2g-main-lower>div.w2g-player-se
      /* remove banner only visible when using adblock */
 }
 
-#w2g-center-doit {
+#w2g-center-doit, #w2g-at-right {
      display: none !important;
      /* remove static advertisement area */
+}
+
+body > div.w2g-bind-layout.w2g-main-container > div.w2g-main-lower > div.w2g-player-search > div.w2g-scroll-vertical > div > div.w2g-center-plus.w2g-doit.w2g-until-mobile {
+     display: none !important;
+     /* remove text advertisement for w2g+ below video player */
 }
 
 /* MISC */
