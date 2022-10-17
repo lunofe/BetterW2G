@@ -53,9 +53,14 @@ body>div.w2g-feedback-container.w2g-until-mobile {
      /* remove room name */
 }
 
-body>div.w2g-main-container.w2g-bind-layout>div.w2g-topbar-wrapper.w2g-bind-apps>div.w2g-topbar>div.w2g-topbar-content>div.w2g-topbar-menu>div {
-     display: none;
-     /* remove new invite friends button */
+#w2g-top-inviteurl > input[type=text] {
+     display: none !important;
+     /* remove room link */
+}
+
+#w2g-top-inviteurl > div:nth-child(3) {
+     display: none !important;
+     /* remove room link share button */
 }
 
 body>div.w2g-main-container.w2g-bind-layout>div.w2g-topbar-wrapper.w2g-bind-apps>div.w2g-topbar>div.w2g-topbar-content>div.w2g-topbar-menu>a {
