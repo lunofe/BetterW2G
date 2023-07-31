@@ -366,6 +366,20 @@ body > div.w2g-main-container > div.w2g-main-lower {
             color: #999999;
         }
 
+        /* restyle list item */
+        body > div.w2g-main-container > div.w2g-main-lower > div.w2g-main-right > div.w2g-content-right > div.w2g-menu-tab.w2g-playlists > div.w2g-items.w2g-list-items > div {
+            background-color: #424956;
+            border-radius: 15px;
+            color: #999999;
+            border: 0;
+            margin-bottom: 5px;
+            height: 40px;
+        }
+        body > div.w2g-main-container > div.w2g-main-lower > div.w2g-main-right > div.w2g-content-right > div.w2g-menu-tab.w2g-playlists > div.w2g-items.w2g-list-items > div > div.w2g-list-item-image > img {
+            border-radius: 15px;
+            padding: 5px;
+        }
+
     /* history */
 
         /* restyle list item */
