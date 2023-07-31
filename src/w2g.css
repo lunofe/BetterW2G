@@ -302,6 +302,7 @@ body > div.w2g-main-container > div.w2g-main-lower {
             background-color: rgba(38, 41, 47, 0.6);
             backdrop-filter: blur(20px);
             border: 5px solid #16181C;
+            border-bottom: 0 !important;
             border-radius: 15px 15px 0 0;
             box-shadow: none;
         }
