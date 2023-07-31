@@ -25,14 +25,14 @@ body > div.w2g-main-container {
     }
 
     /* margin parity */
-    body > div.w2g-main-container > div.w2g-main-lower > div.mt-2\.5.w2g-player-search {
+    body > div.w2g-main-container > div.w2g-main-lower > div.w2g-player-search {
         margin: 0 !important;
     }
 
     /* platform topbar */
 
         /* restyle container */
-        body > div.w2g-main-container > div.w2g-topbar-wrapper > div.flex-wrap.justify-center.overflow-auto.py-2.relative {
+        body > div.w2g-main-container > div.w2g-topbar-wrapper > div.flex-wrap.justify-center.overflow-auto.relative {
             background-color: #26292F !important;
             border-radius: 0 0 15px 15px !important;
         }
@@ -43,14 +43,14 @@ body > div.w2g-main-container {
         }
 
         /* restyle active button */
-        body > div.w2g-main-container > div.w2g-topbar-wrapper > div.flex-wrap.justify-center.overflow-auto.py-2.relative > div > div.flex.flex-wrap.max-w-full > div.border.cursor-pointer.hover\:bg-w2g-light.p-1.rounded-md.w-20.bg-w2g-light.border-gray-500 {
+        body > div.w2g-main-container > div.w2g-topbar-wrapper > div.flex-wrap.justify-center.overflow-auto.relative > div > div.flex.flex-wrap.max-w-full > div.border.cursor-pointer.hover\:bg-w2g-light.p-1.rounded-md.w-20.bg-w2g-light.border-gray-500 {
             background-color: #424956 !important;
             border: 0 !important;
             border-radius: 15px !important;
         }
 
         /* remove hover */
-        body > div.w2g-main-container > div.w2g-topbar-wrapper > div.flex-wrap.justify-center.overflow-auto.py-2.relative > div > div.flex.flex-wrap.max-w-full > div.border.border-transparent.cursor-pointer.hover\:bg-w2g-light.p-1.rounded-md.w-20.bg-none:hover {
+        body > div.w2g-main-container > div.w2g-topbar-wrapper > div.flex-wrap.justify-center.overflow-auto.relative > div > div.flex.flex-wrap.max-w-full > div.border.border-transparent.cursor-pointer.hover\:bg-w2g-light.p-1.rounded-md.w-20.bg-none:hover {
             background-color: transparent !important;
         }
 
@@ -113,7 +113,7 @@ body > div.w2g-main-container {
         }
 
         /* restyle copy link button */
-        #w2g-top-inviteurl > div.primary.px-3.py-1.rounded-none.w2g-button {
+        #w2g-top-inviteurl > div.primary.rounded-none.w2g-button {
             background-color: #424956 !important;
             border: 0;
             border-radius: 15px;
@@ -123,7 +123,7 @@ body > div.w2g-main-container {
         }
 
         /* hide invite button */
-        #w2g-top-inviteurl > div.primary.px-3.py-1.rounded-l-none.w2g-button {
+        #w2g-top-inviteurl > div.primary.rounded-l-none.w2g-button {
             display: none !important;
         }
 
@@ -230,14 +230,14 @@ body > div.w2g-main-container > div.w2g-main-lower {
         }
 
     /* hide w2g about section */
-    body > div.w2g-main-container > div.w2g-main-lower > div.w2g-player-search > div.w2g-scroll-vertical > div > div.text-sm.w2g-search-spacer.w2g-until-mobile {
+    body > div.w2g-main-container > div.w2g-main-lower > div.w2g-player-search > div.w2g-scroll-vertical > div > div.text-sm.w2g-search-spacer {
         display: none !important;
     }
 
     /* bottom bar */
 
-        /* show button */
-        #userbar > div.pb-4.pt-2.px-2.w2g-panel-menu {
+        /* restyle button */
+        #userbar > div.w2g-panel-menu {
             background-color: #26292F;
             border-radius: 15px 15px 0 0;
             color: #999999;
