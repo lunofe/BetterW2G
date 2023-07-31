@@ -381,6 +381,22 @@ body > div.w2g-main-container > div.w2g-main-lower {
             border-radius: 15px;
             padding: 5px;
         }
+
+/* settings */
+
+    /* restyle dimmer */
+    #site-dimmer {
+        background-color: rgba(22, 24, 28, 0.6) !important;
+        backdrop-filter: blur(20px);
+    }
+
+    /* restyle container */
+    #site-settings-modal {
+        background-color: #26292F;
+        border: 5px solid #16181C;
+        border-radius: 15px;
+        color: #999999;
+    }
     
 /* misc */
 
