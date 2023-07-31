@@ -380,6 +380,14 @@ body > div.w2g-main-container > div.w2g-main-lower {
             padding: 5px;
         }
 
+        /* playlist settings */
+        #playlist-modal {
+            background-color: #26292F;
+            border: 5px solid #16181C;
+            border-radius: 15px;
+            color: #999999;
+        }
+
     /* history */
 
         /* restyle list item */
