@@ -292,7 +292,7 @@ body > div.w2g-main-container > div.w2g-main-lower {
         border-radius: 15px 15px 0 0;
         color: #999999;
         box-shadow: none;
-        padding-bottom: 5px;
+        padding-bottom: 1vh;
     }
 
     /* chat */
