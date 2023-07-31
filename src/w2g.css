@@ -320,6 +320,41 @@ body > div.w2g-main-container > div.w2g-main-lower {
             border: 0 !important;
         }
 
+        /* restyle text input field */
+        body > div.w2g-main-container > div.w2g-main-lower > div.w2g-main-right > div.w2g-content-right > div.w2g-chat.w2g-menu-tab.w2g-messages > div.w2g-chat-input > div > textarea {
+            background-color: #424956;
+            border: 0;
+            border-radius: 15px 0 0 15px;
+            color: #999999;
+        }
+
+        /* emoji button */
+        body > div.w2g-main-container > div.w2g-main-lower > div.w2g-main-right > div.w2g-content-right > div.w2g-chat.w2g-menu-tab.w2g-messages > div.w2g-chat-input > div > div.px-2.w2g-button {
+            background-color: #424956;
+            border: 0;
+            border-radius: 0 15px 15px 0;
+            color: #999999;
+            margin-right: 5px;
+        }
+
+        /* emoji picker */
+        body > div.w2g-main-container > div.w2g-main-lower > div.w2g-main-right > div.w2g-content-right > div.w2g-chat.w2g-menu-tab.w2g-messages > div.w2g-chat-input > div > div.emoji-picker-container.w2g-emojis > div {
+            background-color: rgba(38, 41, 47, 0.6) !important;
+            backdrop-filter: blur(20px);
+            border: 5px solid #424956;
+            border-radius: 15px;
+            margin-bottom: 5px;
+        }
+
+        /* send button */
+        body > div.w2g-main-container > div.w2g-main-lower > div.w2g-main-right > div.w2g-content-right > div.w2g-chat.w2g-menu-tab.w2g-messages > div.w2g-chat-input > div > div.px-3.w2g-button {
+            background-color: #424956;
+            border: 0;
+            width: 32px;
+            border-radius: 15px;
+            color: #999999;
+        }
+
     /* playlist */
 
         /* restyle selector */
