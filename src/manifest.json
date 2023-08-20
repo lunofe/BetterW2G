@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "BetterW2G",
     "description": "Because Watch2Gether really needs an updated UI.",
-    "version": "1.8",
+    "version": "1.11",
     "icons": {
         "526": "icon.png"
     },
